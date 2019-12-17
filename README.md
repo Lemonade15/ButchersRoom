@@ -3,10 +3,10 @@
 > Date: 2019 Dec 17
 > Log: The first day to get into the GITHUB world. Lovely cat as a logo, BTW.
 
-    # HOPE TO LEARN MORE HERE AND AIM TO BE A GREAT DEVELOPE :) 
+    # HOPE TO LEARN MORE HERE AND AIM TO BE A GREAT DEVELOPER :) 
     
 def myself():
-    a = input('anything-could-eat, feeling-sleppy-all-day, curious and not-so-much-good-at-memorize-staff')
+    a = input('anything-could-eat, feeling-sleepy-all-day, curious and not-so-much-good-at-memorize-staff')
     class(a) = True
     brain.isnull()
         > True
