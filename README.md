@@ -6,7 +6,7 @@
     # HOPE TO LEARN MORE HERE AND AIM TO BE A GREAT DEVELOPER :) 
     
 def myself():
-    a = input('anything-could-eat, feeling-sleepy-all-day, curious and not-so-much-good-at-memorize-staff')
+    a = input('could-eat-anything, feeling-sleepy-all-day, curious and not-so-much-good-at-memorizing-staff')
     class(a) = True
     brain.isnull()
         > True
