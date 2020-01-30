@@ -1,0 +1,19 @@
+## 关于数据清洗(去除多余空格，移除标点符号，调整适当的大小写)
+
+import re
+#输入待清洗数据
+states = ['  Alabama', 'Georgia!', 'georgia', 'West virginia?']
+
+def remove_punctuation(value):
+    return re.sub('[!#?]', '', value)
+clean_ops = [str.strip, remove_punctuation, str.title]
+
+def clean_strings(strings, ops):
+    result = []
+    for value in strings:
+        for function in ops:
+            value = function(value)
+        result.append(value)
+    return result
+
+clean_strings(states, clean_ops)
